@@ -31,7 +31,7 @@ class Register(Resource):
         isflaggedfraud=postedData["isflaggedfraud"]
         features = np.array([[1 , int(types), amount, oldbalanceorig, newbalanceorig, oldbalancedest, newbalancedest, isflaggedfraud]])
         model = joblib.load('credit_fraud.pkl')
-        token = 'awhfkdOpNjEb8j4Fnd_gL6zUgHv6vRcQTPdPTKRbQPcARan8RqJqsD0DDl3cWj_tHmipqA.'
+        token = 'awhfkZTh38JBHS-j8tlowIwObQW7AYBB0Tj2zvYaxJ4lAoza1_eBwP3SG7qOE2_i_BLTkg.'
 
         # set your input text
         
