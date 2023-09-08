@@ -4,6 +4,7 @@ import uvicorn
 import joblib
 from flask import Flask, jsonify, request
 from flask_restful import Api, Resource
+from flask_cors import CORS
 import numpy as np
 import bardapi
 import os
