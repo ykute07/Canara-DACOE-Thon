@@ -13,6 +13,7 @@ import os
 
 app = Flask(__name__)
 api = Api(app)
+CORS(app)
 
 appk = FastAPI(
     title="Credit Card Fraud Detection API",
